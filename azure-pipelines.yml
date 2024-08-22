@@ -35,8 +35,8 @@ stages:
       displayName: Push an image
       inputs:
         containerRegistry: 'DockerHubConnnection'
-        repository:oumayadocker/products-web'
-        command: 'push'
+        repository: 'oumayadocker/products-web'
+        command: 'push''
         Dockerfile: '**/Dockerfile'
         tags: '$(tag)'
 
